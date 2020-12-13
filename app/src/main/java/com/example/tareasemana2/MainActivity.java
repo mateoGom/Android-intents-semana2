@@ -38,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(MainActivity.this, DetalleContacto.class);
+                intent.putExtra(getResources().getString(R.string.pnombre), contactos.get(position).getNombre());
+                intent.putExtra(getResources().getString(R.string.ptelefono), contactos.get(position).getTelefono());
+                intent.putExtra(getResources().getString(R.string.pemail), contactos.get(position).getEmail());
+
+
+
                 startActivity(intent);
             }
         });

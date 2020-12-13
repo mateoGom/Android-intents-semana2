@@ -3,5 +3,9 @@
     <string name="name">Mateo</string>
     <string name="telefono">5555555</string>
     <string name="email">mateo@hotmail.com</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+
 
 </resources>
